@@ -18,4 +18,4 @@ This serves as the main repo for ITSC 204 Assignment 1
 - create installation mechanism for Windows
 - create installation mechanism for Mac
 - any other improvements you can think of
-- Python version(s)?
+- Python version(s)? (this might be pretty big undertaking)
