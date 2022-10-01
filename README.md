@@ -12,7 +12,10 @@ This serves as the main repo for ITSC 204 Assignment 1
 
 ## General:
 - annotate every line and create documentation
+- general improvements to Help (no arguments)
+- general improvements to arguments
 - create installation mechanism for Linux
 - create installation mechanism for Windows
 - create installation mechanism for Mac
 - any other improvements you can think of
+- Python version(s)?
