@@ -1,6 +1,10 @@
 # AssemblyToolchains
 This serves as the main repo for ITSC 204 Assignment 1
 
+# Contributions List:
+Lubos Kuzma (https://www.linkedin.com/in/lubos-kuzma-0719a586)
+
+
 # Suggested TODO:
 ## x86 Toolchain:
 - modify script to be based on GCC
@@ -19,3 +23,5 @@ This serves as the main repo for ITSC 204 Assignment 1
 - create installation mechanism for Mac
 - any other improvements you can think of
 - Python version(s)? (this might be pretty big undertaking)
+
+
