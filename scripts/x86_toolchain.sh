@@ -3,7 +3,8 @@
 # Created by Lubos Kuzma
 # ISS Program, SADT, SAIT
 # August 2022
-
+#edits by Saiban: 64-bit is always True 
+echo -e "\n***Toolchain will operate only in 64-bit mode***\n"
 
 if [ $# -lt 1 ]; then
         echo "Usage:"
@@ -25,7 +26,7 @@ POSITIONAL_ARGS=()
 GDB=False
 OUTPUT_FILE=""
 VERBOSE=False
-BITS=False
+BITS=True
 QEMU=False
 BREAK="_start"
 RUN=False
@@ -48,10 +49,10 @@ while [[ $# -gt 0 ]]; do
                         BITS=True
                         shift # past argument
                         ;;
-                -q|--qemu)
-                        QEMU=True
-                        shift # past argument
-                        ;;
+               # -q|--qemu) /// 64-bit is always true
+                #        QEMU=True
+                 #       shift # past argument
+                  #      ;;
                 -r|--run)
                         RUN=True
                         shift # past argument
